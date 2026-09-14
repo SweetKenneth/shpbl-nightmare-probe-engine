@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0.0",
+  "artifact_id": "CMP-ISAAC-001",
+  "artifact_name": "Nightmare Probe Engine",
+  "state": "PUBLIC_MIT_RELEASE",
+  "discovery_lane": "harvest_repo_direct_semantic",
+  "approved_by": "Kenneth E. Sweet Jr.",
+  "upstream": {
+    "repository": "conard0-git/targeted-nessus-scan",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2026 Isaac Conard",
+    "archive_sha256": "0e40ebed2e7fa7e56fa4c9855f97b7fe37c4bade1b975edbd8c635b01a33b439",
+    "source_digest_algorithm": "SHPBL-SOURCE-DIGEST/1",
+    "source_digest": "2ec34cf6270cdb9172e8d15e5410481dd570463ba66ed5b724b39c2547b0f67d",
+    "blob_count": 6,
+    "bytes": 20777,
+    "literal_implementation_reuse": false,
+    "host_capability_evidence": [
+      {
+        "capability": "Precise target + scan type selection",
+        "path": "SKILL.md",
+        "lines": "55-57"
+      },
+      {
+        "capability": "Resolve linked Nessus agents",
+        "path": "SKILL.md",
+        "lines": "58"
+      },
+      {
+        "capability": "Temporary exact-target groups",
+        "path": "SKILL.md",
+        "lines": "59-60"
+      },
+      {
+        "capability": "Launch and observe scan lifecycle",
+        "path": "SKILL.md",
+        "lines": "61-63"
+      },
+      {
+        "capability": "Normalize vuln/compliance findings",
+        "path": "SKILL.md",
+        "lines": "64-68"
+      },
+      {
+        "capability": "Cloud identity to Nessus identity correlation",
+        "path": "SKILL.md",
+        "lines": "94-100"
+      }
+    ]
+  },
+  "shpbl_parents": [
+    "primitive|DREAM::createNightmareArtifact|15b1d600dd2183e4",
+    "crown-jewel|DREAM::whatIf|ef65e4acb9168a10",
+    "crown-jewel|DREAM::pollinate|1f26af5ead4fefa6",
+    "crown-jewel|ATLAS::simulateAttack|739ac2c63a42e751",
+    "primitive|SANDBOX::createExperiment|908c1ba3fcb96a1b",
+    "crown-jewel|ECHO::createMutationRehearsalEngine|793f191c3e86b64d",
+    "crown-jewel|MEMORY::createEventStore|83073e109fcffc04"
+  ],
+  "shpbl_body_copy": false,
+  "implementation_origin": "fresh implementation from approved capability contract",
+  "literal_code_mix": {
+    "upstream_percent": 0,
+    "shpbl_body_percent": 0,
+    "fresh_implementation_percent": 100
+  },
+  "endorsement_implied": false,
+  "public_release": {
+    "state": "PUBLIC_MIT_RELEASE",
+    "repository": "https://github.com/SweetKenneth/shpbl-nightmare-probe-engine",
+    "version": "1.0.0",
+    "outbound_license": "MIT",
+    "copyright_holder": "Kenneth E. Sweet Jr.",
+    "upstream_repository_url": "https://github.com/conard0-git/targeted-nessus-scan",
+    "upstream_license_observed": "MIT",
+    "literal_upstream_lines_copied": 0,
+    "literal_shpbl_capability_bodies_copied": 0,
+    "shpbl_method": "https://shpbl.com",
+    "endorsement_implied": false,
+    "tenable_status": "submitted for review; no approval or endorsement claimed"
+  },
+  "claim_ceiling": "Public MIT release, Copyright (c) 2026 Kenneth E. Sweet Jr. Submitted to the Tenable CyberAgents Exchange for review; no Tenable review, approval, certification, endorsement or acceptance is claimed, and no endorsement by the upstream author is implied."
+}

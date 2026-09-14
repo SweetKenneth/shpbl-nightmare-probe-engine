@@ -1,0 +1,16 @@
+{
+  "artifact": "Nightmare Probe Engine",
+  "repository": "https://github.com/SweetKenneth/shpbl-nightmare-probe-engine",
+  "version": "1.0.0",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Kenneth E. Sweet Jr.",
+  "file_count": 18,
+  "checksums_sha256_root": "aba92272a0463c34e47d266197e384221e12bcf049951e27ce9279b7b1c705a0",
+  "verification": {
+    "tests_passed": 29,
+    "tests_failed": 0,
+    "hammer": "{\"hammer\":\"PASS\",\"cases\":30000,\"checks\":210000,\"seed\":1330837201}",
+    "security_scan": "security scan PASS: 5 runtime source files, 0 forbidden network/filesystem/process/dynamic-eval surfaces",
+    "runtime_dependencies": 0
+  }
+}
